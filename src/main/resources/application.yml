@@ -3,5 +3,5 @@ spring:
 #    active: ${profile.active}
     active: dev
 
-mybatis:
-  mapper-locations: classpath:com/nk/admin/**/mapper/*.xml
+mybatis-plug:
+  mapper-locations: classpath:com/xxx/**/mapper/*.xml
