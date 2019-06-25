@@ -1,0 +1,7 @@
+spring:
+  profiles:
+#    active: ${profile.active}
+    active: dev
+
+mybatis:
+  mapper-locations: classpath:com/nk/admin/**/mapper/*.xml
